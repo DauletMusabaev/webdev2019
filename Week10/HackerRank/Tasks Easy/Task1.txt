@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+if __name__ == '__main__':
+    print "Hello, World!"
+
+=======
+if __name__ == '__main__':
+    print "Hello, World!"
+
+>>>>>>> f48f5ba894d0a2b98ecdf54c818f30cfd9250472
+=======
+if __name__ == '__main__':
+    print "Hello, World!"
+
+>>>>>>> 00a100397296f3496da058618e66ccd8e3095b40

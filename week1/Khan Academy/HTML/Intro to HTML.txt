@@ -1,0 +1,31 @@
+Write a Poem
+<!DOCTYPE HTML>
+
+	<html>
+    
+	<head>
+        
+		<title>My Poem
+ </title>
+        
+		<meta charset="utf-8">
+    
+	</head>
+    
+	<body>
+    
+		<h1> Abay Kunanbayev
+ </h1>
+    
+		<p> Kazakhstan had a strong oral tradition in literature until the mid-19th century.<br>
+    
+		Abai (Ibrahim) Kunanbayev (1845–1904) was a Kazakh poet and teacher, and the key figure in developing a new Kazakh national written literature. <br>
+    
+		His father, Kunanbai Uskenbayev, was a landowner, and the family was prominent in eastern Kazakhstan.  
+        
+    
+		</p>
+    
+	</body>
+
+	</html>

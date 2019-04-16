@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    ans = sum(student_marks[query_name]) / len(student_marks[query_name])
+    print("{0:.2f}".format(ans))
+
+=======
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    ans = sum(student_marks[query_name]) / len(student_marks[query_name])
+    print("{0:.2f}".format(ans))
+
+>>>>>>> f48f5ba894d0a2b98ecdf54c818f30cfd9250472
+=======
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    ans = sum(student_marks[query_name]) / len(student_marks[query_name])
+    print("{0:.2f}".format(ans))
+
+>>>>>>> 00a100397296f3496da058618e66ccd8e3095b40

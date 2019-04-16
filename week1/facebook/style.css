@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.head {
+	background-color: #3F5C9A;
+	width: 100%;
+	height: 90px; 
+}
+.align {
+	width: 100%;
+	height: 300px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.image {
+	float: left;
+}
+.image img {
+	width: 160px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.login {
+	float: right;
+	color:white;
+	font-size:13px;
+	margin-top: 20px;
+	margin-right: 150px;
+	font-family: sans-serif;
+}
+.input_log {
+	width:150px;
+	margin-right: 110px;
+}
+.bttn {
+	width:50px;
+	height:20px;
+	margin-left: 10px;
+	color: white;
+	background-color: #2980B9;
+	padding: 05px, 05px, 05px, 05px;
+}
+.login a {
+	color:white;
+	text-decoration: none;
+}
+.content {
+	width: 100%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left {
+	float: left;
+	margin-left: 160px;
+}
+#left_text {
+	color: #3F5C9A;
+	margin-top: 50px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	font-size: 23px;
+	font-family: sans-serif;
+}
+.right {
+	float: right;
+	margin-right: 160px;
+	margin-top: 20px;
+}
+.ipt1 {
+	margin-bottom: 10px;
+	border: none;
+	border: 1px solid #3F5C9A;
+	height: 30px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.ipt2 {
+	width: 390px;
+	margin-bottom: 10px;
+	border: none;
+	border: 1px solid #3F5C9A;
+	height: 30px;
+	border-radius: 5%;
+	font-family: sans-serif;
+	font-size: 15px;
+	}
+#free {
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	}
+#reg {
+	font-size: 40px;
+	font-family: sans-serif;
+}
+#birth {
+	margin-top: 20px;
+	float: left;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#date {
+	height: 30px;
+	width: 54px;
+}
+.zachem a {
+	font-size: 13px;
+	color:#3F5C9A;
+	text-decoration: none;
+	border: none;
+	font-family: sans-serif;
+}
+#gender {
+	font-size: 50px;
+	font-family: sans-serif;
+	margin: 5px;
+	margin-top: 10px;
+}
+#usl {
+	margin-top: 20px;
+	font-size: 12px;
+	color: grey;
+}
+#usl a {
+	color: #3F5C9A;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#Regging {
+	margin-top: 20px;
+	height: 40px;
+	width: 200px;
+	border:1px solid black;
+	border-radius: 5%;
+	background-color:green;
+	color:white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#last {
+	margin-top: 30px;
+	color: grey;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+#last a {
+	color: #3F5C9A;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.bottom {
+	width: 1000px;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-left: 150px;
+}
+#under {
+	font-size: 12px;
+	color: grey;
+	font-family: sans-serif;
+}
+#under a {
+	text-decoration: none;
+	color: #3F5C9A;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+#line {
+	color: white;
+}

@@ -1,0 +1,159 @@
+.site_name {
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Bahnschrift Light', Times, serif;
+    font-size: 100px;
+    color: black;
+    width: 100%;
+}
+
+.header_div{
+    width: 100%;
+    margin-left: none;
+}
+.nav {
+    display: inline-block;
+    width: 100%;      
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav li {
+    display: inline-block;
+}
+#nav_element1{
+    margin-right: none;
+    margin-left: 500px;
+    text-decoration-line: underline;
+}
+#nav_element2 {
+    color: black;
+    margin-left: none;
+    /* text-decoration-line: underline; */
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.nav li a:hover {
+    font-family: 'Open Sans',sans-serif;
+    text-decoration-line: underline;
+}
+#vhod {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px; 
+    float: right;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#reg {
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#main_photo {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 300px;
+    /* margin-top: 40%; */
+}
+.footer_div {
+    float: left;
+    width: 50%;
+}
+.forms {
+    padding-top:100px; 
+    float: left;
+    width: 50%;
+}
+.footer_form {
+    padding-top: 100px;
+}
+.footer_form ul li {
+    display: inline-block;
+    
+}
+.podpiska {
+    float: left;
+    font-size: 20px;
+    color:white;
+}
+#footer_button {
+    margin-left: 10px;
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+} 
+ #footer_input {
+    float: left;
+    width: 300px;
+    height: 35px;
+}
+
+#faq {
+    margin-left: 300px;
+    font-size: 20px;
+    color:white;
+}
+#chto {
+    margin-left: 300px;
+    font-size: 20px;
+    color:white;
+}
+#kontact {
+    margin-left: 300px;
+    font-size: 20px;
+    color:white;
+}
+
+.lastimages ul img {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+} 
+.ensony {
+    margin-left: 43%;
+    color: white; 
+}
+
+button {
+    cursor: pointer;
+}
+
+/* body {
+    background-image: url("QazFlash_brand.png");
+    opacity: 0.7;
+} */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    
+	<head>
+        
+		<meta charset="utf-8">
+        
+		<title>Challenge: Colorful creature</title>
+        
+		<style>
+            
+			body {
+                
+				background-color: yellow;
+            
+			}
+            
+			p {
+                
+				color: red;
+            
+			}
+            
+			h1 {
+                
+				color: blue;
+            
+			}
+        
+		</style>
+        
+        
+    
+	</head>
+    
+	<body>
+        
+        
+		<h1>The coolest creature</h1>
+        
+        
+		<p>The <em>Orange Mice </em> is awesome because <strong> I like Tom and Jerry</strong>.</p>
+
+    
+        
+		<img src = "https://www.kasandbox.org/programming-images/creatures/Hopper-Jumping.png" alt = "Orange mice" width = "150px">
+
+    
+	</body>
+
+</html>

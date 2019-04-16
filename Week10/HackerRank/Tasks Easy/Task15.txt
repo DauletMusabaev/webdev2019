@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+def mutate_string(string, position, character):
+    string = string[:position] + character + string[position + 1:]
+    return string
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+=======
+
+def mutate_string(string, position, character):
+    string = string[:position] + character + string[position + 1:]
+    return string
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+>>>>>>> f48f5ba894d0a2b98ecdf54c818f30cfd9250472
+=======
+
+def mutate_string(string, position, character):
+    string = string[:position] + character + string[position + 1:]
+    return string
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+>>>>>>> 00a100397296f3496da058618e66ccd8e3095b40
+    print(s_new)

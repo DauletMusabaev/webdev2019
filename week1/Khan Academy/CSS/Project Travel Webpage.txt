@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+        
+<meta charset="utf-8">
+        
+<title>Project: Travel webpage</title>
+        
+<style>
+            
+#beach{
+                
+color: rgb(250, 218, 94); 
+            
+}
+            
+.faces{
+                
+color: blue;
+            
+}
+            
+li {
+                
+color: green;
+            
+}
+        
+</style>
+    
+</head>
+    
+<body>
+    
+        
+<h1>Travel to Hawaii, USA</h1>
+        
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Coast_of_Kauai%2C_Hawaii.jpg" alt="hawaii mountains" width="250">
+        
+<h1>Beach in Hawaii</h1>
+        
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Waikikibeach.jpg/400px-Waikikibeach.jpg" alt="hawaii beach" width="250"> 
+        
+<ul>
+            
+<li id="beach"> Fantastic beaches
+            
+<li class="faces"> Friendly faces
+            
+<li> Ono grinds (good eats) are practically guaranteed 
+        
+</ul>
+        
+<h3>The local animals</h3>
+        
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Book-hawaii-vtorov-130.jpg" alt="Ducks" width="200px">
+        
+<p><strong>Hawaii's</strong> diverse natural scenery, warm tropical climate, abundance of public beaches, oceanic surroundings, and active volcanoes make it a popular destination for tourists, surfers, biologists, and volcanologists.<br> 
+Because of its central location in the <em>Pacific</em> and 19th-century labor migration, Hawaii's culture is strongly influenced by North American and East Asian cultures, in addition to its indigenous Hawaiian culture.<br> </p>
+        
+<p><strong>Hawaii</strong> has over a million permanent residents, along with many visitors and U.S. military personnel. Its capital is Honolulu on the island of O?ahu.</p>
+        
+    
+</body>
+
+</html>

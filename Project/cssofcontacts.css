@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+header {
+    height: 120px;
+    color: red;
+    background: black;
+}
+.container {
+    margin-left: 200px;
+} 
+header h1 {
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    width: 960px;
+}
+
+h6 { 
+    border: 1px solid blue;
+    margin: 0;
+    width: 960px;
+}
+h3 {
+    margin: 5px;
+}
+h2 {
+    text-transform: uppercase;
+}
+p {
+    font-size: 19px;
+}
+a {
+    border: 10px solid rgb(50,90,180);
+    border-radius: 10px;
+    background-color: rgb(50,90,180);
+    color: black;
+}
