@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  height: 700px;
+}
+.loging{
+  text-align: center;
+}
+.tasklist ,.create{
+  text-align: center;
+  font-size: 24px;
+  color: darkmagenta;
+  font-family: "Book Antiqua";
+}
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.task{
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+.logouting {
+  text-align: center;
+}
