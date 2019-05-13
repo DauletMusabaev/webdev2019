@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {MainService} from './main.service';
-import {ITask, ITasklist} from '../models/models';
+import {IAuthResponse, ITask, ITasklist} from '../models/models';
 
 @Injectable({
   providedIn: 'root'
@@ -32,5 +32,16 @@ export class ProviderService extends MainService {
 
   deleteTaskList(id: number): Promise<any> {
     return this.delet(`http://localhost:8000/api/task_lists/${id}/`, {});
+  }
+
+  auth(login: any, pass: any): Promise<IAuthResponse> {
+    return this.post('http://localhost:8000/api/login/', {
+      username: login,
+      password: pass
+    });
+  }
+  logout(): Promise<any> {
+    return this.post('http://localhost:8000/api/logout/', {
+    });
   }
 }

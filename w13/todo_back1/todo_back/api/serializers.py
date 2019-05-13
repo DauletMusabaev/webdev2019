@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from django.contrib.auth.models import User
 from .models import TaskList, Task
 
 class TaskListSerializer(serializers.Serializer):
@@ -14,10 +15,16 @@ class TaskListSerializer(serializers.Serializer):
         instance.save()
         return instance
 
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'email')
+
 class TaskListSerializer2(serializers.ModelSerializer):
+    created_by = UserSerializer(read_only=True)
     class Meta:
         model = TaskList
-        fields = ('id', 'name')
+        fields = ('id', 'name', 'created_by')
 
 class TaskSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)

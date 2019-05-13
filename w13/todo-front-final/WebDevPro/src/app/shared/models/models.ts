@@ -10,3 +10,7 @@ export interface ITask {
   due_on: Date;
   status: string;
 }
+
+export interface IAuthResponse {
+  token: string;
+}
